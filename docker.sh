@@ -21,8 +21,8 @@ docker run -d \
     --hostname pi.hole \
     -e VIRTUAL_HOST="pi.hole" \
     -e PROXY_LOCATION="pi.hole" \
-    -e FTLCONF_LOCAL_IPV4="200.176.17.46" \
-    -e SERVERIP="200.176.17.46" \
+    -e FTLCONF_LOCAL_IPV4="127.0.0.1" \
+    -e SERVERIP="127.0.0.1" \
     -e WEBPASSWORD="$VARIABLE_PASSW" \
     pihole/pihole:latest
     
